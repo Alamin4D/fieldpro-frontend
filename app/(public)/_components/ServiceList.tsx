@@ -1,7 +1,5 @@
 import ServiceCard from "./ServiceCard";
 
-
-
 export default function ServiceList({
   services,
 }: {

@@ -1,4 +1,4 @@
-# 🔧 FixItNow Frontend
+# 🔧 Field Service Management
 
 > **Your Trusted Home Service Platform**
 

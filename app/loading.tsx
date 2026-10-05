@@ -151,10 +151,10 @@ export default function Loading() {
         
         <h2 className="fx-in mt-12 text-3xl font-black tracking-widest uppercase flex items-center">
           <span className="text-transparent bg-clip-text bg-gradient-to-b from-slate-900 via-slate-700 to-slate-500 dark:from-white dark:via-slate-200 dark:to-slate-400">
-            FixIt
+            Field
           </span>
           <span className="ml-2 bg-clip-text text-transparent bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600 dark:from-cyan-400 dark:via-blue-400 dark:to-indigo-400">
-            Now
+            Pro
           </span>
         </h2>
 
