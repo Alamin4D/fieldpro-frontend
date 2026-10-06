@@ -16,11 +16,10 @@ interface TechnicianListProps {
       name: string;
       image?: string;
     };
-  }[]; // Note the brackets [] indicating it's an array of objects
+  }[];
 }
 
 export default function TechnicianList({ technicians }: TechnicianListProps) {
-  // Safe validation fallback to keep the grid clean if backend returns an empty array
   if (!technicians || technicians.length === 0) {
     return (
       <div className="text-center py-12 border border-dashed rounded-2xl bg-muted/20">
