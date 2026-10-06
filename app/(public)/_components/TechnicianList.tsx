@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import TechnicianCard from "./TechnicianCard"; // Ensure this path points correctly to your card component
+import TechnicianCard from "./TechnicianCard";
 
-// 1️⃣ Declare the array type structure for your technicians prop incoming from page.tsx
+
 interface TechnicianListProps {
   technicians: {
     id: string;
