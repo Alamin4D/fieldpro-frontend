@@ -19,6 +19,7 @@ interface TechnicianListProps {
   }[];
 }
 
+
 export default function TechnicianList({ technicians }: TechnicianListProps) {
   if (!technicians || technicians.length === 0) {
     return (
